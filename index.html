@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height:25px;
+        background-color: red;
+        color: white;
+        text-align: center;
+        }
+        .header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height:25px;
+        background-color: red;
+        color: white;
+        text-align: center;
+        }
+
+        .header p, .footer p {
+         bottom: 10px;
+         position: relative;
+        }
+
+    </style>
+    <div class="header"><p>Header</p></div>
+    <div id="nanorep-support-center"></div>
+    <script>
+    ! function(t, e, o, n, c) {
+        var s = this.nanorep = this.nanorep || {};
+        s = s[e] = s[e] || {}, s.host = c, s.path = n, s.domain = t, s.protocol = "https:" === location.protocol ? "https:" : "http:", s.on = s.on || function() { s._calls = s._calls || [], s._calls.push([].slice.call(arguments)) };
+        var a = document.createElement("script");
+        a.async = a.defer = !0, a.setAttribute("src", s.protocol + "//" + c + n + o), document.getElementsByTagName("head")[0].appendChild(a)
+    }("pointillist-kb.genesys.com/", "supportCenter", "support-center.js", "/web/", "genesyspointillist.nanorep.co");
+    </script>   
+<div class="footer"><p>Footer</p></div>
+</body>
+</html>
